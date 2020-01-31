@@ -1,0 +1,1080 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,800&display=swap');
+body {
+    line-height: normal; 
+    line-height: 1.2;
+    font-family: 'sf_pro_textregular';
+}
+
+@font-face {
+    font-family: 'sf_pro_displayregular';
+    src: url('../fonts/sf-pro-display-regular_0.woff2') format('woff2'),
+        url('../fonts/sf-pro-display-regular_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_displaylight';
+    src: url('../fonts/sf-pro-display-light.woff2') format('woff2'),
+        url('../fonts/sf-pro-display-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_displaysemibold';
+    src: url('../fonts/sf-pro-display-semibold_0.woff2') format('woff2'),
+        url('../fonts/sf-pro-display-semibold_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_displaymedium';
+    src: url('../fonts/sf-pro-display-medium_0-webfont.woff2') format('woff2'),
+        url('../fonts/sf-pro-display-medium_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_displaybold';
+    src: url('../fonts/sf-pro-display-bold_0.woff2') format('woff2'),
+        url('../fonts/sf-pro-display-bold_0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_pro_textlight';
+    src: url('../fonts/sf-pro-text-light-webfont.woff2') format('woff2'),
+        url('../fonts/sf-pro-text-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_textregular';
+    src: url('../fonts/sf-pro-text-regular-webfont.woff2') format('woff2'),
+        url('../fonts/sf-pro-text-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_textmedium';
+    src: url('../fonts/sf-pro-text-medium-webfont.woff2') format('woff2'),
+        url('../fonts/sf-pro-text-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sf_pro_textbold';
+    src: url('../fonts/sf-pro-text-bold-webfont.woff2') format('woff2'),
+        url('../fonts/sf-pro-text-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a.active,
+a:focus,
+button:focus,
+button.active {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+    outline: 0;
+    box-shadow: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    color: #111111;
+    font-family: 'sf_pro_displaybold';
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+img {
+    border-style: none;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+/*************** HEADER CSS****************/
+.header{
+    padding: 26px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navigation .navbar{
+    padding: 0;
+}
+.navigation .navbar-brand{
+    padding: 0;
+    margin: 0;
+} 
+.navigation .navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'sf_pro_displaysemibold';
+    padding: 14px 18px;
+}
+.navigation .navbar-nav .nav-item.sign-btn{
+    margin-left: 10px;
+}
+.navigation .navbar-nav .nav-item.sign-btn .nav-link{  
+    font-family: 'sf_pro_displaybold';
+    color: #26c0c0;
+    min-width: 159px;
+    width: 100%;
+    height: 47px; 
+    padding: 0;
+    border-radius: 26px;
+    background-color: #ffffff !important;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+/*************** BANNER SEC CSS****************/
+.banner-sec{
+    background: url(../images/banner-bg.png) no-repeat;
+    background-size: cover;
+    padding: 449px 0 281px 0;
+    background-position: center center;
+}
+.banner-inner .text-box{
+    text-align: center;
+}
+.banner-inner .text-box h1{
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 1.56;
+    max-width: 610px;
+    width: 100%;
+    margin: 0 auto 64px
+}
+.banner-inner .text-box a{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #1fccd8;
+    border-radius: 26px;
+    background-color: #ffffff;
+    max-width: 209px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+/*************** PARA MEDICOS SEC CSS****************/
+.para-medicos-sec{
+    padding: 108px 0 0 0;
+}
+.para-medicos-inner{
+    max-width: 1025px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.para-medicos-inner .text-box{
+    max-width: 457px;
+    width: 100%;
+    position: relative;
+}
+.para-medicos-inner .text-box:after{
+    position: absolute;
+    content: "";
+    left: -55px;
+    top: 30px;
+    background-color: rgba(124, 227, 210, 0.3);
+    width: 1px;
+    height: 363px;
+}
+.para-medicos-inner .text-box:before{
+    position: absolute;
+    content: "";
+    left: -61px;
+    top: 26px;
+    background-image: linear-gradient(to left, #7ce3d2, #12e3c0);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+.para-medicos-inner .text-box h3{
+    font-size: 56px;
+    letter-spacing: 0.94px;
+    margin-bottom: 15px;
+}
+.para-medicos-inner .text-box p{
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 420px;
+    color: #525252;
+    font-family: 'sf_pro_textregular';
+}
+.para-medicos-inner .text-box ul {
+    display: flex;
+    align-items: center;
+    margin: 28px -35px 0;
+}
+.para-medicos-inner .text-box ul li{
+    padding: 0 35px;
+}
+.para-medicos-inner .text-box ul li .icon-holder{
+    width: 104px;
+    height: 104px;
+    border-radius: 51.6px;
+    box-shadow: 0 3px 17px 0 rgba(124, 227, 210, 0.25);
+    border: solid 1.5px #fefefe;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para-medicos-inner .text-box ul li h4{
+    font-size: 20px; 
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #111111;
+    font-family: 'sf_pro_textregular';
+    margin-top: 22px;
+}
+.para-medicos-inner .text-box a{
+    width: 209px;
+    height: 52px;
+    border-radius: 26px;
+    background-image: linear-gradient(to left, #7ce3d2, #12e3c0);
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.para-medicos-inner .image-holder {
+    margin: -311px 0 0 0;
+    position: relative;
+    width: calc(100% - 475px);
+}
+/*************** VALORES METRICAS SEC CSS****************/
+.valores-metricas-sec{
+    padding: 160px 0;
+    background-color: rgba(216, 216, 216, 0.11);
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 56px;
+    letter-spacing: 0.94px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 15px;
+}
+.heading p{
+    font-size: 20px;
+    line-height: 1.8; 
+    color: #525252;
+    max-width: 485px;
+    width: 100%;
+    margin: 0 auto;
+}
+.valores-metricas-inner {
+    max-width: 980px;
+    margin: 80px auto 0;
+}
+.valores-metricas-inner ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.valores-metricas-inner ul:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 82px;
+    background-color: rgba(124, 227, 210, 0.3);
+    width: 80%;
+    height: 2px;
+    transform: translate(-50%, 0);
+}
+.valores-metricas-inner ul li{
+    position: relative;
+    z-index: 1;
+}
+.valores-metricas-inner ul li .image-holder{
+    border-radius: 77.4px;
+    box-shadow: 0 5px 26px 0 rgba(124, 227, 210, 0.25);
+    border-image-source: linear-gradient(to left, #7ce3d2, #12e3c0);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff), linear-gradient(to left, #7ce3d2, #12e3c0);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 155px;
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.valores-metricas-inner ul li .image-holder h4{
+    background-image: linear-gradient(307deg, #1fccd8 121%, #12e3c0 -24%);
+    font-size: 49px;
+    font-family: 'sf_pro_displaybold';
+    letter-spacing: 0.83px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.valores-metricas-inner ul li .image-holder h4 span{
+    font-size: 30px;
+}
+.valores-metricas-inner ul li .text-box{
+    padding-top: 22px;
+}
+.valores-metricas-inner ul li .text-box h3{
+    background-image: linear-gradient(297deg, #1fccd8 117%, #12e3c0 -23%);
+    font-size: 33px;
+    letter-spacing: 0.56px;
+    margin-bottom: 7px;
+    font-family: 'sf_pro_displaysemibold';
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.valores-metricas-inner ul li .text-box p{
+    font-size: 18px;
+    font-family: 'sf_pro_textlight';
+    max-width: 223px;
+    width: 100%;
+    line-height: 1.61;
+    color: #525252;
+    text-align: center;
+}
+/*************** REVIEWS SEC CSS****************/
+.reviews-sec{
+    background: url(../images/reviews-bg.png) no-repeat;
+    background-size: cover;
+    padding: 115px 0;
+}
+.reviews-sec .title h2{
+    color: #fff;
+    font-size: 56px;
+    letter-spacing: 0.94px;
+}
+.reviews-box{
+    border-radius: 8px;
+    box-shadow: 1px 5px 14px 3px rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 15px;
+}
+.reviews-box .image-holder{
+    max-width: 98px;
+    width: 100%;
+    height: 98px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 7px 28px 0 rgba(0, 0, 0, 0.32);
+}
+.reviews-box .image-holder img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100%;
+}
+.reviews-box .text-box h4{
+    font-size: 24px;
+    color: #2f2f2f;
+    padding: 31px 0 13px;
+}
+.reviews-box .text-box .ratting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+.reviews-box .text-box .ratting ul{
+    display: flex;
+    margin-right: 11px;
+}
+.reviews-box .text-box .ratting ul li{
+    padding: 0 2px;
+}
+.ratting span{
+    font-size: 12.6px;
+    color: #9b9b9b;
+    display: inline-block;
+}
+.reviews-box .text-box p{
+    font-size: 16px;
+    line-height: 1.44;
+    color: #959595;
+    font-family: 'sf_pro_displayregular';
+    font-style: italic;
+    max-width: 246px;
+    width: 100%;
+    min-height: 92px;
+    margin: 0 auto;
+}
+.reviews-inner .title{
+    padding-left: 10%;
+    padding-bottom: 51px;
+}
+.swiper-btn{
+    max-width: 87%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 10;
+}
+.swiper-button-next:after, .swiper-button-prev:after{display: none;
+}
+.swiper-button-next, .swiper-button-prev{
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.32);
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-button-next{
+    margin-left: auto;
+}
+.swiper-button-prev {
+    opacity: 0;
+    display: none;
+}
+.swiper-button-prev img {
+    transform: rotate(185deg);
+}
+.swiper-pagination{
+    display: none;
+}
+/*************** CONTACT SEC CSS****************/
+.contact-sec{
+    padding: 158px 75px 85px;
+}
+.contact-inner{
+    display: flex;
+}
+.contact-inner .image-holder{
+    max-width: 415px;
+    width: 100%;
+
+}
+.image-holder-inner{
+    position: relative;
+}
+.image-small{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    width: 90px;
+    height: 90px;
+    background-image: linear-gradient(320deg, #1fccd8 126%, #12e3c0 -24%);
+    border-radius: 50%;
+}
+.contact-inner .text-box{
+    width: calc(100% - 412px);
+    padding-left: 50px;
+    padding-top: 52px;
+}
+.contact-inner .text-box h3{
+    background-image: linear-gradient(334deg, #26c0c0 76%, #12e3c0 10%);
+    font-size: 49px;
+    letter-spacing: 1.28px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+.contact-inner .text-box p{
+    font-size: 20px;
+    line-height: 1.9; 
+    color: #525252;
+    max-width: 595px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contact-inner .text-box ul li{
+    background-image: linear-gradient(to left, #7ce3d2, #12e3c0);
+    font-size: 22px;
+    -webkit-background-clip: text;
+    font-family: 'sf_pro_textbold';
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 35px;
+}
+.contact-inner .text-box ul li:last-child{
+    margin-bottom: 0;
+}
+.contact-inner .text-box ul li span{
+    display: inline-block;
+    max-width: 33px;
+    width: 100%;
+    margin-right: 26px;
+}
+/*************** PARA VOCE SEC CSS****************/
+.para-voce-sec{
+    background-color: rgba(216, 216, 216, 0.11);
+    padding: 260px 0 75px;
+    position: relative;
+}
+.para-voce-sec:after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 142px;
+    background: url(../images/para-voce-bg.svg) no-repeat;
+    width: 450px;
+    background-size: 100%;
+    height: 584px;
+}
+
+.para-voce-inner {
+    display: flex;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.para-voce-inner-left{
+    max-width: 480px;
+    width: 100%;
+}
+.para-voce-inner-left .text-box .text-inner {
+    padding-left: 50px;
+    position: relative;
+}
+.para-voce-inner-left .text-box .text-inner:after{
+    position: absolute;
+    content: "";
+    left: 15px;
+    top: 30px;
+    background-color: rgba(124, 227, 210, 0.3);
+    width: 1px;
+    height: 182px;
+}
+.para-voce-inner-left .text-box .text-inner:before {
+    position: absolute;
+    content: "";
+    left: 8px;
+    top: 26px;
+    background-image: linear-gradient(to left, #7ce3d2, #12e3c0);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+.para-voce-inner-left .text-box h3{
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 18px;
+}
+.para-voce-inner-left .text-box p{
+    font-size: 20px;
+    line-height: 1.65;
+    color: #525252;
+    max-width: 430px;
+    width: 100%;
+    font-family: 'sf_pro_displayregular';
+    margin-bottom: 55px;
+}
+.para-voce-inner-left .text-box .para-voce-listing {
+    margin-bottom: 87px;
+}
+.para-voce-inner-left .text-box .para-voce-listing ul li{
+    font-size: 18px;
+    color: #111111;
+    font-family: 'sf_pro_displaysemibold';
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+.para-voce-inner-left .text-box .para-voce-listing ul li img{
+    margin-right: 18px;
+}
+.para-voce-inner-left .text-box .para-voce-btn{
+    padding-left: 41px;
+}
+.para-voce-inner-left .text-box .para-voce-btn ul {
+    display: flex;
+    align-items: center;
+    margin: 0  -12px;
+}
+.para-voce-inner-left .text-box .para-voce-btn ul li{
+    padding: 0 12px;
+}
+.para-voce-inner-right {
+    width: calc(100% - 480px);
+    margin: -110px 0 0 0;
+    position: relative;
+    z-index: 10;
+    right: -73px;
+}
+.para-voce-inner-right .image-holder img{
+    margin-left: auto;
+}
+.slick-dots li{
+    width: 19px;
+    height: 19px;
+    margin: 0 14px;
+}
+.slick-dots li button{
+    width: 19px;
+    height: 19px;
+    border: solid 1px #7ce3d2;
+    border-radius: 50%; 
+    margin: 0;
+    padding: 0;
+}
+.slick-dots li button:before{
+    display: none;
+}
+.slick-dots li.slick-active button{
+    background-image: linear-gradient(to left, #7ce3d2, #12e3c0);
+}
+.slick-dots {
+    width: auto;
+    padding: 0;
+    bottom: auto;
+    top: 50%;
+    left: -10px;
+    transform: translate(0, -50%) rotate(90deg);
+}
+/*************** FOOTER SEC CSS****************/
+.footer{
+    background: rgba(216, 216, 216, 0.11) url(../images/footer-bg.png) no-repeat;
+    background-size: cover; 
+    padding: 130px 0;
+    text-align: center;
+}
+.footre-innr .socail-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 28px;
+}
+.footre-innr .socail-media p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'sf_pro_displaybold';
+    margin-right: 20px;
+}
+.footre-innr .socail-media ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -8px;
+}
+.footre-innr .socail-media ul li{
+    padding: 0 8px;
+}
+.footre-innr .socail-media ul li i{
+    color: #fff;
+    font-size: 24px;
+}
+.copyright p{
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+    font-family: 'sf_pro_displaylight';
+}
+.landing-page .footer{ 
+    background: rgba(216, 216, 216, 0.11) url(../images/landing-footer.png) no-repeat;
+    background-size: cover; 
+    padding: 130px 0 37px 0;
+}
+.footer-contact{
+    max-width: 395px;
+    width: 100%;
+    margin: 76px auto 71px;
+}
+.footer-contact p{
+    font-size: 19.8px;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+    font-family: 'sf_pro_textmedium';
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.footer-contact p img{
+    margin-right: 12px;
+}
+.footer-contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-contact ul li{
+    font-size: 16.2px;
+    color: #ffffff;
+    font-family: 'sf_pro_textmedium';
+    display: flex;
+    align-items: center;
+}
+.footer-contact ul li a{
+    color: #fff;
+}
+.footer-contact ul li img{
+    margin-right: 12px;
+}
+.app-btn{
+    max-width: 395px;
+    width: 100%;
+    margin: 75px auto 61px;
+}
+.app-btn ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+/*************** LANDING PAGE CSS****************/
+.landing-page .banner-inner .text-box h1{
+    font-size: 58px;
+    line-height: 1.29;
+    margin: 0 auto 85px;
+}
+.landing-page .banner-inner .text-box a{ 
+    border: solid 1px rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    color: #ffffff;
+    max-width: 353px; 
+}
+.landing-page .banner-inner .text-box a span{
+    font-weight: 800;
+    margin-left: 3px;
+}
+.landing-page .carousel-indicators{
+    position: static;
+    margin: 95px 0 0 0;
+    width: 100%;
+}
+.landing-page .carousel-indicators li{
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 11px;
+    border: solid 1px #ffffff;
+}
+.landing-page .carousel-indicators .active{
+    background-color: #ffffff;
+}
+.landing-page .valores-metricas-inner ul li .image-holder{
+    border: solid 2.3px #757575;
+    box-shadow: none;
+}
+/*************** PATNERS SEC CSS****************/
+.landing-page .partners-sec{
+    background: url(../images/partners-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 1132px;
+    padding-top: 122px;
+}
+.partners-main{
+    display: flex;
+    justify-content: flex-end;
+}
+.partners-left {
+    max-width: 660px;
+    width: 100%;
+    padding-left: 50px;
+}
+.partners-left .text-box{
+    position: relative;
+}
+.partners-left .text-box:after{
+    position: absolute;
+    content: "";
+    left: -35px;
+    top: 20px;
+    width: 1px;
+    height: 182px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, #ffffff 2%, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+.partners-left .text-box:before{
+    position: absolute;
+    content: "";
+    left: -41px;
+    top: 15px;
+    width: 14px;
+    height: 14px; 
+    border-radius: 50%;
+    background-color: #ffffff; 
+
+}
+.partners-left .text-box h2{
+    font-size: 56px;
+    letter-spacing: 0.94px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.partners-left .text-box p{
+    line-height: 1.72;
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 385px;
+}
+.partners-linner{
+    margin-top: 96px;
+}
+.partners-box{
+    max-width: 223px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.partners-box .image-holder{
+    width: 53px;
+    height: 53px;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+}
+.partners-box h3{
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.37px;
+    margin-top: 19px;
+    font-family: 'sf_pro_displaysemibold';
+}
+.partners-box p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.57;
+    font-family: 'sf_pro_textlight';
+}
+.partners-right {
+    width: calc(100% - 660px);
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.partners-right .image-holder {
+    margin: 240px 0px 0 0;
+}
+/*************** DOUBTS SEC CSS****************/
+.doubts-sec{
+    padding:  250px 0 185px;
+    position: relative;
+}
+.doubts-sec:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 250px;
+    background: url(../images/doubts-img.png) no-repeat;
+    width: 220px;
+    height: 480px;
+    background-size: 100%;
+}
+.doubts-sec .doubts-inner {
+    max-width: 893px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.doubts-sec .doubts-inner .title{
+    margin-bottom: 30px;
+}
+.doubts-sec .doubts-inner .title h2{
+    background-image: linear-gradient(334deg, #26c0c0 76%, #12e3c0 10%);
+    font-size: 49px;
+    margin-bottom: 7px;
+    letter-spacing: 1.28px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.doubts-sec .doubts-inner .title p{
+    font-size: 20px;
+    line-height: 1.9;
+    max-width: 595px;
+    width: 100%;
+    color: #525252;
+}
+.doubts-sec .doubts-inner .title ul{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.doubts-sec .doubts-inner .title ul li{
+    margin-right: 21px;
+}
+.doubts-sec .doubts-inner .title ul li a{
+    width: 159px;
+    height: 49px;
+    border-radius: 24.5px;
+    border: solid 1px #979797;
+    font-size: 22px;
+    letter-spacing: 0.58px;
+    color: #a7a7a7;
+    font-family: 'sf_pro_displaybold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doubts-sec .doubts-inner .title ul li a.parceiros-btn{
+    background-image: linear-gradient(290deg, #1fccd8 116%, #12e3c0 -23%);
+    color: #fff;
+    border: none;
+}
+.card{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.card-header{
+    background-color: transparent;
+    padding: 0;
+}
+.card-header .btn-link{
+    padding: 15px 0;
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'sf_pro_textmedium';
+    color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-header .btn-link:hover{
+    text-decoration: none !important;
+}
+.card-header .btn-link[aria-expanded="true"] img{
+    transform: rotate(180deg);
+    transition: all 0.5s ease-in-out;
+}
+.card-body{
+    padding: 13px 0;
+}
+.card-body p{
+    font-size: 18px;
+    line-height: 1.56;  
+    color: #9b9b9b;
+}
+/*************** ABOUT LIBER SEC CSS****************/
+.about-liber{ 
+    box-shadow: inset 0 1px 0 1px rgba(0, 0, 0, 0.11);
+    background-color: rgba(216, 216, 216, 0.11);
+    padding: 105px 0 110px;
+}
+.about-liber-inner{
+    max-width: 900px;
+    margin: 0 auto;
+    width:  100%;
+}
+.about-liber-inner .title h2{
+    background-image: linear-gradient(to top, #26c0c0 129%, #12e3c0 -35%);
+    font-size: 48px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'sf_pro_displaymedium';
+    margin-bottom: 16px;
+}
+.about-liber-inner .title h2 span{
+    font-family: 'sf_pro_displaybold';
+}
+.about-liber-inner .title p{
+    font-size: 26px;
+    line-height: 1.58;
+    color: #525252;
+    max-width: 628px;
+    font-family: 'sf_pro_displaylight';
+}
+.about-liber-inner .image-holder{
+    margin-top: 62px;
+    margin-bottom: 95px;
+}
+.about-liber-inner .text-box {
+    margin-bottom: 80px;
+}
+.about-liber-inner .text-box h3{
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.about-liber-inner .text-box p{
+    font-size: 20px;
+    color: #525252;
+    font-family: 'sf_pro_displayregular';
+    line-height: 1.65;
+    max-width: 395px;
+}
